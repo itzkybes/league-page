@@ -246,7 +246,7 @@
         <div class="infoSlot infoTeam">
             {#if manager.favoriteTeam}
                 <div class="infoIcon">
-                    <img class="infoImg" src="https://sleepercdn.com/images/team_logos/nfl/{manager.favoriteTeam}.png" alt="favorite team"/>
+                    <img class="infoImg" src="https://sleepercdn.com/images/team_logos/nba/{manager.favoriteTeam}.png" alt="favorite team"/>
                 </div>
             {:else}
                 <div class="infoIcon question">
