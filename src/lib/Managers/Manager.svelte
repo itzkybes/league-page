@@ -253,7 +253,7 @@
             {#if viewManager.favoriteTeam}
                 <!-- favoriteTeam is an optional field -->
                 <span class="seperator">|</span>
-                <img class="infoChild infoTeam" src="https://sleepercdn.com/images/team_logos/nfl/{viewManager.favoriteTeam}.png" alt="favorite team"/>
+                <img class="infoChild infoTeam" src="https://sleepercdn.com/images/team_logos/nba/{viewManager.favoriteTeam}.png" alt="favorite team"/>
             {/if}
             {#if commissioner}
                 <span class="seperator">|</span>
