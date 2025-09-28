@@ -8,9 +8,9 @@
 
     const getAvatar = (pos, player) => {
         if(pos == 'DEF') {
-            return `background-image: url(https://sleepercdn.com/images/team_logos/nfl/${player.toLowerCase()}.png)`;
+            return `background-image: url(https://sleepercdn.com/images/team_logos/nba/${player.toLowerCase()}.png)`;
         }
-        return `background-image: url(https://sleepercdn.com/content/nfl/players/thumb/${player}.jpg), url(https://sleepercdn.com/images/v2/icons/player_default.webp)`;
+        return `background-image: url(https://sleepercdn.com/content/nba/players/thumb/${player}.jpg), url(https://sleepercdn.com/images/v2/icons/player_default.webp)`;
     }
 </script>
 
