@@ -67,7 +67,7 @@
             }
             return {
                 name,
-                avatar: player.pos == "DEF" ? `background-image: url(https://sleepercdn.com/images/team_logos/nfl/${starter.toLowerCase()}.png)` : `background-image: url(https://sleepercdn.com/content/nfl/players/thumb/${starter}.jpg), url(https://sleepercdn.com/images/v2/icons/player_default.webp)`,
+                avatar: player.pos == "DEF" ? `background-image: url(https://sleepercdn.com/images/team_logos/nba/${starter.toLowerCase()}.png)` : `background-image: url(https://sleepercdn.com/content/nba/players/thumb/${starter}.jpg), url(https://sleepercdn.com/images/v2/icons/player_default.webp)`,
                 pos: player.pos,
                 team: player.t,
                 opponent: player.wi && player.wi[displayWeek] ? player.wi[displayWeek].o : null,
@@ -506,7 +506,7 @@
                         {#if player.home.avatar}
                             <div class="playerAvatar playerInfo" style="{player.home.avatar}">
                                 {#if player.home.team && player.home.pos != "DEF"}
-                                    <img src="https://sleepercdn.com/images/team_logos/nfl/{player.home.team.toLowerCase()}.png" class="teamLogo teamHomeLogo" alt="team logo"/>
+                                    <img src="https://sleepercdn.com/images/team_logos/nba/{player.home.team.toLowerCase()}.png" class="teamLogo teamHomeLogo" alt="team logo"/>
                                 {/if}
                             </div>
                         {/if}
@@ -531,7 +531,7 @@
                         {#if player.away.avatar}
                             <div class="playerAvatar playerInfo" style="{player.away.avatar}">
                                 {#if player.away.team && player.away.pos != "DEF"}
-                                    <img src="https://sleepercdn.com/images/team_logos/nfl/{player.away.team.toLowerCase()}.png" class="teamLogo teamAwayLogo" alt="team logo"/>
+                                    <img src="https://sleepercdn.com/images/team_logos/nba/{player.away.team.toLowerCase()}.png" class="teamLogo teamAwayLogo" alt="team logo"/>
                                 {/if}
                             </div>
                         {/if}
