@@ -218,7 +218,7 @@
 		<Cell class="avatar playerCell">
             <div class="playerAvatar" style="{player.avatar}">
                 {#if player.team && player.poss != "DEF"}
-                    <img src="https://sleepercdn.com/images/team_logos/nfl/{player.team.toLowerCase()}.png" class="teamLogo" alt="team logo"/>
+                    <img src="https://sleepercdn.com/images/team_logos/nba/{player.team.toLowerCase()}.png" class="teamLogo" alt="team logo"/>
                 {/if}
             </div>
         </Cell>
