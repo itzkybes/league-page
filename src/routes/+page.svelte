@@ -153,10 +153,10 @@
     <div class="leagueData">
         <div class="homeBanner">
             {#await nflState}
-                <div class="center">Retrieving NFL state...</div>
+                <div class="center">Retrieving NBA state...</div>
                 <LinearProgress indeterminate />
             {:then nflStateData}
-                <div class="center">NFL {nflStateData.season} 
+                <div class="center">NBA {nflStateData.season} 
                     {#if nflStateData.season_type == 'pre'}
                         Preseason
                     {:else if nflStateData.season_type == 'post'}
